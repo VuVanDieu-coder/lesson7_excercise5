@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In ra Fizz Buzz</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let i = 1;
+
+    // case1
+    for(i=1; i<=100; i++){
+        if (i%3 == 0 && i%5 !=0){
+            document.write("Fizz, ");
+            continue;
+        }
+        if(i%3 !=0 && i%5 ==0){
+            document.write("Buzz, ");
+            continue;
+        }
+        if(i%3 ==0 && i%5 == 0){
+            document.write("FizzBuzz, ");
+            continue;
+        }else{
+            document.write(i + ", ");
+        }
+    }
+
+        // case2
+    // debugger;
+    // let i = 1;
+    // while(i<100){
+    //     if(i%3 == 0 && i%5 !=0){
+    //         document.write("Fizz, ");
+    //         // break;
+    //         // continue;
+    //     }
+    //     if(i%3 !=0 && i%5 ==0){
+    //         document.write("Buzz, ");
+    //         // break;
+    //         // continue;
+    //     }
+    //     if(i%3 ==0 && i%5 == 0){
+    //         document.write("FizzBuzz, ");
+    //     //     break;
+    //     }
+    //     else{
+    //         document.write(i + ", ");
+    //     }
+    //     i++;
+    // }
+</script>
